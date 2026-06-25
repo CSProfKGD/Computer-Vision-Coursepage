@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "title": "A Visual and Technical Journey Into Computer Vision",
+    "subtitle": "From image formation and filtering to motion, 3D structure, and recognition.",
+    "sourceUrl": "https://www.eecs.yorku.ca/~kosta/Courses/EECS4422/",
+    "instructor": {
+      "name": "Kosta Derpanis",
+      "role": "Associate Professor, York University",
+      "homepageUrl": "https://csprofkgd.github.io",
+      "twitterUrl": "https://x.com/CSProfKGD",
+      "linkedinUrl": "https://www.linkedin.com/in/kosta-derpanis-a07824122/"
+    }
+  },
+  "lectures": [
+    {
+      "category": "Background Material",
+      "lectureNumber": 0,
+      "displayTitle": "Teaching Machines to See",
+      "originalLectureTitle": "Introduction to Computer Vision",
+      "description": "Begin with the goals, challenges, and applications that make visual perception a central problem in computing.",
+      "reading": "Szeliski, Chapter 1",
+      "slidesUrl": "https://drive.google.com/file/d/1LXIVxsC7C3k9zlBa6tPJdyHka5hsqQTf/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1hZTl2ASoAQ4a8XSgQKg9qtZH5GqZ8cub/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Linear Algebra Review",
+          "url": "https://drive.google.com/file/d/1hNusGBwcz3m27VVL8JVkTPlbYnYoK_VU/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      "category": "Image Formation",
+      "lectureNumber": 1,
+      "displayTitle": "Lights, Cameras, Pixels!",
+      "originalLectureTitle": "Image Formation",
+      "description": "Connect light, surfaces, sensors, and pixels to understand how the physical world becomes image data.",
+      "reading": "Szeliski, Chapter 2, Section 2.1",
+      "slidesUrl": "https://drive.google.com/file/d/1ZO_NIo4dKPzcV7mhmg0iXcEQqiwFmx12/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1qV2ktNO1Ur8oOfekDtDHUn0PwoK9J5uU/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Photography in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=JoxGEymA8ro"
+        }
+      ]
+    },
+    {
+      "category": "Image Formation",
+      "lectureNumber": 2,
+      "displayTitle": "The Hidden Geometry Behind Every Image",
+      "originalLectureTitle": "Camera Models & Projection",
+      "description": "Extend the camera model with alternative projection models and reference frames while exploring the role of lenses in image formation.",
+      "reading": "Szeliski, Chapter 2, Section 2.1",
+      "slidesUrl": "https://drive.google.com/file/d/1stUXwzSR02oPPBUG71dxNXiZXdp1EXUp/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1MZ1Vj3-h26JFUKwnNn4Y0HZ-pjLyZclS/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Photography in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=JoxGEymA8ro"
+        }
+      ]
+    },
+    {
+      "category": "Image Formation",
+      "lectureNumber": 3,
+      "displayTitle": "Pixel Gymnastics",
+      "originalLectureTitle": "Image Transformations",
+      "description": "Study geometric transformations that map pixels between images through translation, rotation, scaling, and perspective warping.",
+      "reading": "Szeliski, Chapter 2, Section 2.1",
+      "slidesUrl": "https://drive.google.com/file/d/1P6Y-QbswLbHjyhF6nTEH7GIWNCJuhR-H/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1SyeK7p7lspfOlZxNfNRjkjtIPeCHUAy4/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Photography in 5 Minutes",
+          "url": "https://www.youtube.com/watch?v=JoxGEymA8ro"
+        }
+      ]
+    },
+    {
+      "category": "Image Formation",
+      "lectureNumber": 4,
+      "displayTitle": "The Ruler Hidden in Every Image",
+      "originalLectureTitle": "Image Measurements / Metrology",
+      "description": "Learn how geometry turns images into measurements of scene layout, scale, and spatial relationships.",
+      "reading": "",
+      "slidesUrl": "https://drive.google.com/file/d/1Dy6Xl0bHX5PjANboltPn60lPH4rOihPc/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1Gbg756WHToNoEv8YYTNjtVsXW4_vvZD0/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Pictorial Space",
+          "url": "https://drive.google.com/file/d/1W4gL4Af0JXICWLfCnFu6nDv8H7dt7DY_/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      "category": "Filtering And Features",
+      "lectureNumber": 5,
+      "displayTitle": "Separating Signal from Noise",
+      "originalLectureTitle": "Image Filtering",
+      "description": "Use local operations to reduce noise, reveal structure, and prepare images for later analysis.",
+      "reading": "Szeliski, Chapter 3, Sections 3.1 to 3.2.2",
+      "slidesUrl": "https://drive.google.com/file/d/1RxhBATAm1GijeF95FNfRcTQy7oXXMJvD/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1i3JtfuaD3PTRUz1iyOt7wV7t5IROXEfr/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Filtering And Features",
+      "lectureNumber": 6,
+      "displayTitle": "Without Contrast, You're Dead",
+      "originalLectureTitle": "Image Gradients & Edge Detection",
+      "description": "Detect intensity changes that often mark object boundaries, surface changes, and important visual events.",
+      "reading": "Szeliski, Chapter 4, Section 4.2",
+      "slidesUrl": "https://drive.google.com/file/d/1ofpzxNXbyHG3tLbzPXNNp0L-v-gaze3z/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1sjWqHK0k9cEr4LClkOLjMv4t_9wMsY1J/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Edge Detection",
+          "url": "https://drive.google.com/file/d/1zC0EskczfoZZqyt7B7CUev6ePo3opy_q/view?usp=share_link"
+        },
+        {
+          "label": "Seam Carving",
+          "url": "http://www.faculty.idc.ac.il/arik/SCWeb/imret/"
+        }
+      ]
+    },
+    {
+      "category": "Filtering And Features",
+      "lectureNumber": 7,
+      "displayTitle": "What Makes Points Interesting?",
+      "originalLectureTitle": "Image Features",
+      "description": "Represent repeatable points, patches, and patterns that support matching, recognition, and geometric reasoning.",
+      "reading": "Szeliski, Chapter 4, Section 4.1",
+      "slidesUrl": "https://drive.google.com/file/d/1RUKKdq8_jogjHLuoI8a8Gp1EZ_6Zt7Mk/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1uPTHyapLxOMXVRRZ2x05lI_JOdm-dSD-/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Model Fitting",
+      "lectureNumber": 8,
+      "displayTitle": "Finding Patterns in Noise",
+      "originalLectureTitle": "Model Fitting",
+      "description": "Estimate lines, shapes, and geometric models from noisy visual measurements using robust fitting principles.",
+      "reading": "Szeliski, Chapter 4, Section 4.3.2, and Chapter 6, Sections 6.1.1, 6.1.2, and 6.1.4",
+      "slidesUrl": "https://drive.google.com/file/d/1TUwXe3_qMTkidQQik5cg1We3EKUaJCh-/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1Sjwi1phZoC70atV6GphX92loWcfdUVTV/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Hough Transform",
+          "url": "http://homepages.inf.ed.ac.uk/rbf/BOOKS/BANDB/LIB/bandb4_3.pdf"
+        }
+      ]
+    },
+    {
+      "category": "Frequency Analysis",
+      "lectureNumber": 9,
+      "displayTitle": "The Double Life of Images",
+      "originalLectureTitle": "Frequency Analysis",
+      "description": "Discover how the Fourier transform represents images as combinations of frequencies, revealing a new way to understand visual information.",
+      "reading": "Szeliski, Chapter 3, Section 3.4",
+      "slidesUrl": "https://drive.google.com/file/d/1NFr6AJ7uWXAAuBjkMSKZpTgoa7a9wpGQ/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1R_OJcWVlU7gDxJtSSG4_FvFA45bUt0l0/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Frequency Analysis",
+      "lectureNumber": 10,
+      "displayTitle": "The Frequency Toolbox",
+      "originalLectureTitle": "Applications of Frequency Analysis",
+      "description": "Understand filtering, aliasing, sampling, and image enhancement through the lens of frequency analysis.",
+      "reading": "Horn, Chapters 6 and 7",
+      "slidesUrl": "https://drive.google.com/file/d/1QXIV4jUb8Jy0QkxbFBY9S3KdyfeEYBzU/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1_O4TZ3NBSxBfBt0Szuq81arPEPOKjNEQ/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Frequency Analysis",
+      "lectureNumber": 11,
+      "displayTitle": "It’s a Matter of Scale",
+      "originalLectureTitle": "Image Pyramids",
+      "description": "Build multi-scale image representations that support efficient search, matching, blending, and coarse-to-fine analysis.",
+      "reading": "",
+      "slidesUrl": "https://drive.google.com/file/d/1Tl0JMJcqJLtZhffLvEmZ-JDPHO-XIlm5/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1lcM6gn18mMX0KWl-XavKUUPx5ysAT2O3/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Multiple Image Analysis",
+      "lectureNumber": 12,
+      "displayTitle": "Following Pixels Through Time",
+      "originalLectureTitle": "Motion Analysis",
+      "description": "Estimate how points move across frames to understand motion, correspondence, and object tracking.",
+      "reading": "Trucco and Verri, Chapter 8, Sections 8.3 and 8.4",
+      "slidesUrl": "https://drive.google.com/file/d/10nog4BrGb2W1Sv5vINNGRISig6CzxyKJ/view?usp=sharing",
+      "videoUrl": "https://drive.google.com/file/d/1rZNcm-IXYhgiL6KBG0WEnpVD77HhkMQJ/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Optical Flow",
+          "url": "https://drive.google.com/file/d/1QdwZ_FX12ZrW9M0NyXpxk_489C9I5qOy/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      "category": "Multiple Image Analysis",
+      "lectureNumber": 13,
+      "displayTitle": "Two Eyes Are Better Than One",
+      "originalLectureTitle": "Stereo Vision",
+      "description": "Recover depth from multiple views by matching visual evidence across separated camera positions.",
+      "reading": "Trucco and Verri, Chapter 7",
+      "slidesUrl": "https://drive.google.com/file/d/1LdBDNCNJQiEsYROWEf97gQ2BFv8-nOCq/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1si4kKcCZyhT_HAzHgyvTZxpIQdcz6vPG/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Multiple Image Analysis",
+      "lectureNumber": 14,
+      "displayTitle": "Teaching Cameras Geometry",
+      "originalLectureTitle": "Camera Calibration",
+      "description": "Estimate intrinsic and extrinsic camera parameters from corresponding 2D image and 3D world measurements.",
+      "reading": "",
+      "slidesUrl": "https://drive.google.com/file/d/1eRYfdyJqdkNtR5lhmIVrsgX1w13yW0cK/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1S61CnDyZ4EDX_iRXMr0xYeQK7JCCa6EN/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Multiple Image Analysis",
+      "lectureNumber": 15,
+      "displayTitle": "The 3D World Hidden in a Video",
+      "originalLectureTitle": "Structure from Motion",
+      "description": "Use image correspondences to infer scene structure and camera motion from visual observations.",
+      "reading": "Trucco and Verri, Chapter 8, Sections 8.1 and 8.2",
+      "slidesUrl": "https://drive.google.com/file/d/1ToQThyHculaeQwpqKDRmQjizPn_2FtJA/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/18Kz7ZqvNBP5iHD_1g6sxLXjAaDLaEulr/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Multiple Image Analysis",
+      "lectureNumber": 16,
+      "displayTitle": "Recovering Shape from Motion",
+      "originalLectureTitle": "Factorization Methods",
+      "description": "Learn a classic matrix factorization approach for recovering shape and motion from tracked image points.",
+      "reading": "",
+      "slidesUrl": "https://drive.google.com/file/d/1JUPt6GIQg5QEGrhveY-0MvILsA5c_Gdq/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1HdSlT_vHQk21pDMdcPiGJ5b8yuQsb9Zw/view?usp=share_link",
+      "backgroundMaterials": [
+        {
+          "label": "Factorization Paper",
+          "url": "https://drive.google.com/file/d/1FXMeLOaEkstxZ0GiwGyc22PUzi3auvK7/view?usp=share_link"
+        }
+      ]
+    },
+    {
+      "category": "Multiple Image Analysis",
+      "lectureNumber": 17,
+      "displayTitle": "Lost in Translation",
+      "originalLectureTitle": "Procrustes Analysis",
+      "description": "Align point sets by removing translation, rotation, and scale to compare their underlying geometry.",
+      "reading": "",
+      "slidesUrl": "https://drive.google.com/file/d/1Ax58OdR4C7dIDQqIiSKS5-yk2DTT4LwE/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1SSwQRO-olXk8isCZbP-gp05X1qwUkkMX/view?usp=share_link",
+      "backgroundMaterials": []
+    },
+    {
+      "category": "Recognition",
+      "lectureNumber": 18,
+      "displayTitle": "From Pixels to Predictions",
+      "originalLectureTitle": "Machine Learning Crash Course",
+      "description": "Review machine learning ideas that connect visual representations to decisions, labels, and recognition systems.",
+      "reading": "",
+      "slidesUrl": "https://drive.google.com/file/d/1bqZHEius77g76IfNEoEq5TLu9GnyoXF4/view?usp=share_link",
+      "videoUrl": "https://drive.google.com/file/d/1KNm0CetPYGCsfxIaMkWbEHCbQo0OoMve/view?usp=share_link",
+      "backgroundMaterials": []
+    }
+  ],
+  "textbooks": [
+    {
+      "title": "Foundations of Computer Vision",
+      "authors": "Antonio Torralba, Phillip Isola, William Freeman",
+      "links": [
+        {
+          "label": "Free online",
+          "url": "https://visionbook.mit.edu/"
+        },
+        {
+          "label": "Publisher",
+          "url": "https://mitpress.mit.edu/9780262048972/foundations-of-computer-vision/"
+        }
+      ]
+    },
+    {
+      "title": "Computer Vision: Algorithms and Applications",
+      "authors": "Richard Szeliski",
+      "links": [
+        {
+          "label": "Free online",
+          "url": "http://szeliski.org/Book/"
+        },
+        {
+          "label": "Publisher",
+          "url": "https://link.springer.com/book/10.1007/978-3-030-34372-9"
+        }
+      ]
+    },
+    {
+      "title": "Linear Algebra and Its Applications",
+      "authors": "Gilbert Strang",
+      "links": [
+        {
+          "label": "Video lectures",
+          "url": "http://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/"
+        }
+      ]
+    },
+    {
+      "title": "Robot Vision",
+      "authors": "Berthold Horn",
+      "links": []
+    },
+    {
+      "title": "Introductory Techniques for 3-D Computer Vision",
+      "authors": "Emanuele Trucco and Alessandro Verri",
+      "links": []
+    }
+  ],
+  "resources": [
+    {
+      "title": "Python Numpy tutorial",
+      "url": "https://cs231n.github.io/python-numpy-tutorial/",
+      "authors": "Justin Johnson"
+    },
+    {
+      "title": "Basic Linear algebra review",
+      "url": "http://www.ling.upenn.edu/courses/cogs501/LinearAlgebraReview.html"
+    },
+    {
+      "title": "Linear algebra review and reference",
+      "url": "http://cs229.stanford.edu/section/cs229-linalg.pdf",
+      "authors": "Zico Kolter"
+    },
+    {
+      "title": "Geometric Review of Linear Algebra",
+      "authors": "Eero Simoncelli",
+      "url": "https://drive.google.com/file/d/1hNusGBwcz3m27VVL8JVkTPlbYnYoK_VU/view?usp=share_link"
+    },
+    {
+      "title": "History of Photography in 5 Minutes (video)",
+      "url": "https://www.youtube.com/watch?v=JoxGEymA8ro"
+    },
+    {
+      "title": "Bringing Pictorial Space to Life",
+      "url": "https://drive.google.com/file/d/1W4gL4Af0JXICWLfCnFu6nDv8H7dt7DY_/view?usp=share_link",
+      "authors": "Antonio Criminisi, Martin Kemp and Andrew Zisserman"
+    },
+    {
+      "title": "Edge Detection",
+      "url": "https://drive.google.com/file/d/1zC0EskczfoZZqyt7B7CUev6ePo3opy_q/view?usp=share_link",
+      "authors": "Pedro Felzenszwalb"
+    },
+    {
+      "title": "Seam Carving for Content-Aware Image Resizing",
+      "url": "http://www.faculty.idc.ac.il/arik/SCWeb/imret/",
+      "authors": "Avidan and Shamir"
+    },
+    {
+      "title": "Hough transform",
+      "url": "http://homepages.inf.ed.ac.uk/rbf/BOOKS/BANDB/LIB/bandb4_3.pdf",
+      "authors": "Ballard and Brown"
+    },
+    {
+      "title": "Optical Flow Estimation",
+      "url": "https://drive.google.com/file/d/1QdwZ_FX12ZrW9M0NyXpxk_489C9I5qOy/view?usp=share_link",
+      "authors": "Fleet and Weiss"
+    },
+    {
+      "title": "Shape and Motion from Image Streams under Orthography: A Factorization Method",
+      "url": "https://drive.google.com/file/d/1FXMeLOaEkstxZ0GiwGyc22PUzi3auvK7/view?usp=share_link",
+      "authors": "Tomasi and Kanade"
+    }
+  ],
+  "acknowledgements": [
+    {
+      "name": "Richard Wildes",
+      "url": "http://www.cse.yorku.ca/%7Ewildes/"
+    },
+    {
+      "name": "Kostas Daniilidis",
+      "url": "http://www.cis.upenn.edu/%7Ekostas/"
+    },
+    {
+      "name": "James Hays",
+      "url": "http://cs.brown.edu/%7Ehays/"
+    },
+    {
+      "name": "Derek Hoiem",
+      "url": "http://www.cs.illinois.edu/homes/dhoiem/"
+    },
+    {
+      "name": "Aaron Bobick",
+      "url": "http://www.cc.gatech.edu/%7Eafb/"
+    },
+    {
+      "name": "David Lowe",
+      "url": "http://www.cs.ubc.ca/%7Elowe/"
+    },
+    {
+      "name": "Kristen Grauman",
+      "url": "http://www.cs.utexas.edu/%7Egrauman/"
+    },
+    {
+      "name": "Robert Collins",
+      "url": "http://www.cse.psu.edu/%7Ercollins/"
+    },
+    {
+      "name": "Svetlana Lazebnik",
+      "url": "http://www.cs.illinois.edu/homes/slazebni/"
+    },
+    {
+      "name": "Steve Seitz",
+      "url": "http://homes.cs.washington.edu/%7Eseitz/"
+    },
+    {
+      "name": "William Freeman",
+      "url": "http://people.csail.mit.edu/billf/"
+    },
+    {
+      "name": "Robert Pless",
+      "url": "http://www.cs.wustl.edu/%7Epless/"
+    },
+    {
+      "name": "Andrej Karpathy",
+      "url": "http://cs.stanford.edu/people/karpathy/"
+    },
+    {
+      "name": "Alyosha Efros",
+      "url": "http://www.eecs.berkeley.edu/%7Eefros/"
+    }
+  ]
+}
