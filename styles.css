@@ -81,6 +81,11 @@ a {
   outline-offset: 4px;
 }
 
+.skip-link,
+body > a[href="#journey"]:first-child {
+  display: none !important;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
