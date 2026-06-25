@@ -8,7 +8,8 @@ window.COURSE_DATA = {
       "role": "Associate Professor, York University",
       "homepageUrl": "https://csprofkgd.github.io",
       "twitterUrl": "https://x.com/CSProfKGD",
-      "linkedinUrl": "https://www.linkedin.com/in/kosta-derpanis-a07824122/"
+      "linkedinUrl": "https://www.linkedin.com/in/kosta-derpanis-a07824122/",
+      "emailUrl": "mailto:kosta@yorku.ca"
     }
   },
   "lectures": [
