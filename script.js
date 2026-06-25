@@ -191,7 +191,7 @@ async function loadCourse() {
     return window.COURSE_DATA;
   }
 
-  const response = await fetch("data/course.json?v=20260624-email-icon");
+  const response = await fetch("data/course.json?v=20260624-email-icon-exact");
   if (!response.ok) {
     throw new Error(`Unable to load course data: ${response.status}`);
   }
