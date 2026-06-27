@@ -111,8 +111,8 @@ function renderLectures() {
     const bottom = createElement("div", "card-bottom");
     const actions = createElement("div", "card-actions");
     actions.append(
-      externalLink("PDF", lecture.slidesUrl),
-      externalLink("MOV", lecture.videoUrl)
+      externalLink("Slides", lecture.slidesUrl),
+      externalLink("Video", lecture.videoUrl)
     );
     bottom.append(actions);
 
@@ -191,7 +191,7 @@ async function loadCourse() {
     return window.COURSE_DATA;
   }
 
-  const response = await fetch("data/course.json?v=20260624-hide-skip-link");
+  const response = await fetch("data/course.json?v=20260627-slides-video");
   if (!response.ok) {
     throw new Error(`Unable to load course data: ${response.status}`);
   }
