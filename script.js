@@ -112,9 +112,15 @@ function renderLectures() {
     const actions = createElement("div", "card-actions");
     actions.append(
       externalLink("Slides", lecture.slidesUrl),
-      externalLink("Video", lecture.videoUrl),
-      createElement("span", "status-chip notes-chip", "Notes")
+      externalLink("Video", lecture.videoUrl)
     );
+    if (lecture.lectureNumber !== 0) {
+      actions.append(
+        lecture.notesUrl
+          ? externalLink("Notes", lecture.notesUrl)
+          : createElement("span", "status-chip notes-chip", "Notes")
+      );
+    }
     bottom.append(actions);
 
     article.append(top, bottom);
@@ -192,7 +198,7 @@ async function loadCourse() {
     return window.COURSE_DATA;
   }
 
-  const response = await fetch("data/course.json?v=20260627-notes-chip");
+  const response = await fetch("data/course.json?v=20260627-l01-notes");
   if (!response.ok) {
     throw new Error(`Unable to load course data: ${response.status}`);
   }
