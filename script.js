@@ -112,7 +112,8 @@ function renderLectures() {
     const actions = createElement("div", "card-actions");
     actions.append(
       externalLink("Slides", lecture.slidesUrl),
-      externalLink("Video", lecture.videoUrl)
+      externalLink("Video", lecture.videoUrl),
+      createElement("span", "status-chip notes-chip", "Notes")
     );
     bottom.append(actions);
 
@@ -191,7 +192,7 @@ async function loadCourse() {
     return window.COURSE_DATA;
   }
 
-  const response = await fetch("data/course.json?v=20260627-slides-video");
+  const response = await fetch("data/course.json?v=20260627-notes-chip");
   if (!response.ok) {
     throw new Error(`Unable to load course data: ${response.status}`);
   }

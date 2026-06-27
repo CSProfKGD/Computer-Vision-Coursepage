@@ -586,6 +586,11 @@ h2 {
   color: var(--subtle);
 }
 
+.notes-chip {
+  opacity: 0.58;
+  cursor: not-allowed;
+}
+
 .resources {
   background: var(--bg);
 }
