@@ -198,7 +198,7 @@ async function loadCourse() {
     return window.COURSE_DATA;
   }
 
-  const response = await fetch("data/course.json?v=20260627-l01-notes");
+  const response = await fetch("data/course.json?v=20260711-l02-notes");
   if (!response.ok) {
     throw new Error(`Unable to load course data: ${response.status}`);
   }

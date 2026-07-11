@@ -60,7 +60,8 @@ window.COURSE_DATA = {
           "label": "Photography in 5 Minutes",
           "url": "https://www.youtube.com/watch?v=JoxGEymA8ro"
         }
-      ]
+      ],
+      "notesUrl": "https://drive.google.com/file/d/1j6x1qg3ELvOOXbxh53nFeoxFpZJl5eYV/view?usp=sharing"
     },
     {
       "category": "Image Formation",
