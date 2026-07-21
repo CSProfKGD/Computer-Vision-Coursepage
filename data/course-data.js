@@ -211,7 +211,8 @@ window.COURSE_DATA = {
       "reading": "Trucco and Verri, Chapter 7",
       "slidesUrl": "https://drive.google.com/file/d/1LdBDNCNJQiEsYROWEf97gQ2BFv8-nOCq/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1si4kKcCZyhT_HAzHgyvTZxpIQdcz6vPG/view?usp=share_link",
-      "backgroundMaterials": []
+      "backgroundMaterials": [],
+      "demoUrl": "https://csprofkgd.github.io/epipolar-geometry-visualization/"
     },
     {
       "category": "Multiple Image Analysis",

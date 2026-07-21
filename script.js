@@ -121,6 +121,9 @@ function renderLectures() {
           : createElement("span", "status-chip notes-chip", "Notes")
       );
     }
+    if (lecture.demoUrl) {
+      actions.append(externalLink("Demo", lecture.demoUrl));
+    }
     bottom.append(actions);
 
     article.append(top, bottom);
@@ -198,7 +201,7 @@ async function loadCourse() {
     return window.COURSE_DATA;
   }
 
-  const response = await fetch("data/course.json?v=20260711-l02-notes");
+  const response = await fetch("data/course.json?v=20260721-l13-demo");
   if (!response.ok) {
     throw new Error(`Unable to load course data: ${response.status}`);
   }
