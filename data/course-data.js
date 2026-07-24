@@ -73,6 +73,7 @@ window.COURSE_DATA = {
       "reading": "Szeliski, Chapter 2, Section 2.1",
       "slidesUrl": "https://drive.google.com/file/d/1P6Y-QbswLbHjyhF6nTEH7GIWNCJuhR-H/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1SyeK7p7lspfOlZxNfNRjkjtIPeCHUAy4/view?usp=share_link",
+      "demoUrl": "https://csprofkgd.github.io/planar-homography-lab/",
       "backgroundMaterials": [
         {
           "label": "Photography in 5 Minutes",
