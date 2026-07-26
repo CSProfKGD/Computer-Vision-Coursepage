@@ -568,6 +568,11 @@ h2 {
   gap: 0.45rem;
 }
 
+.action-row-break {
+  flex-basis: 100%;
+  height: 0;
+}
+
 .material-list {
   display: grid;
   gap: 0.5rem;

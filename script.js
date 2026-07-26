@@ -122,6 +122,9 @@ function renderLectures() {
       );
     }
     if (lecture.demoUrl) {
+      if (lecture.demo2Url) {
+        actions.append(createElement("span", "action-row-break"));
+      }
       actions.append(
         externalLink(lecture.demo2Url ? "Demo 1" : "Demo", lecture.demoUrl)
       );
