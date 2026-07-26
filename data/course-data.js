@@ -214,7 +214,8 @@ window.COURSE_DATA = {
       "slidesUrl": "https://drive.google.com/file/d/1LdBDNCNJQiEsYROWEf97gQ2BFv8-nOCq/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1si4kKcCZyhT_HAzHgyvTZxpIQdcz6vPG/view?usp=share_link",
       "backgroundMaterials": [],
-      "demoUrl": "https://csprofkgd.github.io/epipolar-geometry-visualization/"
+      "demoUrl": "https://csprofkgd.github.io/epipolar-geometry-visualization/",
+      "demo2Url": "https://csprofkgd.github.io/parallel-stereo-visualization/"
     },
     {
       "category": "Multiple Image Analysis",

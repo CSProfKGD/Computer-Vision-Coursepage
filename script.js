@@ -122,7 +122,12 @@ function renderLectures() {
       );
     }
     if (lecture.demoUrl) {
-      actions.append(externalLink("Demo", lecture.demoUrl));
+      actions.append(
+        externalLink(lecture.demo2Url ? "Demo 1" : "Demo", lecture.demoUrl)
+      );
+    }
+    if (lecture.demo2Url) {
+      actions.append(externalLink("Demo 2", lecture.demo2Url));
     }
     bottom.append(actions);
 
@@ -201,7 +206,7 @@ async function loadCourse() {
     return window.COURSE_DATA;
   }
 
-  const response = await fetch("data/course.json?v=20260723-l01-demo");
+  const response = await fetch("data/course.json?v=20260726-stereo-demo2");
   if (!response.ok) {
     throw new Error(`Unable to load course data: ${response.status}`);
   }
