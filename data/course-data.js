@@ -216,7 +216,8 @@ window.COURSE_DATA = {
       "videoUrl": "https://drive.google.com/file/d/1si4kKcCZyhT_HAzHgyvTZxpIQdcz6vPG/view?usp=share_link",
       "backgroundMaterials": [],
       "demoUrl": "https://csprofkgd.github.io/epipolar-geometry-visualization/",
-      "demo2Url": "https://csprofkgd.github.io/parallel-stereo-visualization/"
+      "demo2Url": "https://csprofkgd.github.io/parallel-stereo-visualization/",
+      "demo3Url": "https://csprofkgd.github.io/stereo-rectification-lab/"
     },
     {
       "category": "Multiple Image Analysis",

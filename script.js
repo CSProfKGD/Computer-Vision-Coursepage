@@ -122,15 +122,21 @@ function renderLectures() {
       );
     }
     if (lecture.demoUrl) {
-      if (lecture.demo2Url) {
+      if (lecture.demo2Url || lecture.demo3Url) {
         actions.append(createElement("span", "action-row-break"));
       }
       actions.append(
-        externalLink(lecture.demo2Url ? "Demo 1" : "Demo", lecture.demoUrl)
+        externalLink(
+          lecture.demo2Url || lecture.demo3Url ? "Demo 1" : "Demo",
+          lecture.demoUrl
+        )
       );
     }
     if (lecture.demo2Url) {
       actions.append(externalLink("Demo 2", lecture.demo2Url));
+    }
+    if (lecture.demo3Url) {
+      actions.append(externalLink("Demo 3", lecture.demo3Url));
     }
     bottom.append(actions);
 
