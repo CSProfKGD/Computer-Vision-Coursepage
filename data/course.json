@@ -118,6 +118,7 @@
       "reading": "Szeliski, Chapter 4, Section 4.2",
       "slidesUrl": "https://drive.google.com/file/d/1ofpzxNXbyHG3tLbzPXNNp0L-v-gaze3z/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1sjWqHK0k9cEr4LClkOLjMv4t_9wMsY1J/view?usp=share_link",
+      "demoUrl": "https://csprofkgd.github.io/partial-derivatives-visualization/",
       "backgroundMaterials": [
         {
           "label": "Edge Detection",
