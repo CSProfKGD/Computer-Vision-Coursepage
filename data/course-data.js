@@ -333,6 +333,11 @@ window.COURSE_DATA = {
   ],
   "resources": [
     {
+      "title": "#KostasVisualizations",
+      "url": "https://csprofkgd.github.io/kostas-visualizations/",
+      "authors": "Kosta Derpanis"
+    },
+    {
       "title": "Python Numpy tutorial",
       "url": "https://cs231n.github.io/python-numpy-tutorial/",
       "authors": "Justin Johnson"
