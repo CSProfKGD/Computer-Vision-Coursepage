@@ -91,6 +91,7 @@ window.COURSE_DATA = {
       "reading": "",
       "slidesUrl": "https://drive.google.com/file/d/1Dy6Xl0bHX5PjANboltPn60lPH4rOihPc/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1Gbg756WHToNoEv8YYTNjtVsXW4_vvZD0/view?usp=share_link",
+      "hideNotes": true,
       "backgroundMaterials": [
         {
           "label": "Pictorial Space",

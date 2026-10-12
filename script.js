@@ -114,7 +114,7 @@ function renderLectures() {
       externalLink("Slides", lecture.slidesUrl),
       externalLink("Video", lecture.videoUrl)
     );
-    if (lecture.lectureNumber !== 0) {
+    if (lecture.lectureNumber !== 0 && !lecture.hideNotes) {
       actions.append(
         lecture.notesUrl
           ? externalLink("Notes", lecture.notesUrl)
