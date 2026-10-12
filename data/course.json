@@ -231,6 +231,7 @@
       "reading": "",
       "slidesUrl": "https://drive.google.com/file/d/1eRYfdyJqdkNtR5lhmIVrsgX1w13yW0cK/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1S61CnDyZ4EDX_iRXMr0xYeQK7JCCa6EN/view?usp=share_link",
+      "hideNotes": true,
       "backgroundMaterials": []
     },
     {
@@ -253,6 +254,7 @@
       "reading": "",
       "slidesUrl": "https://drive.google.com/file/d/1JUPt6GIQg5QEGrhveY-0MvILsA5c_Gdq/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1HdSlT_vHQk21pDMdcPiGJ5b8yuQsb9Zw/view?usp=share_link",
+      "hideNotes": true,
       "backgroundMaterials": [
         {
           "label": "Factorization Paper",
@@ -269,6 +271,7 @@
       "reading": "",
       "slidesUrl": "https://drive.google.com/file/d/1Ax58OdR4C7dIDQqIiSKS5-yk2DTT4LwE/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1SSwQRO-olXk8isCZbP-gp05X1qwUkkMX/view?usp=share_link",
+      "hideNotes": true,
       "backgroundMaterials": []
     },
     {
@@ -280,6 +283,7 @@
       "reading": "",
       "slidesUrl": "https://drive.google.com/file/d/1bqZHEius77g76IfNEoEq5TLu9GnyoXF4/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1KNm0CetPYGCsfxIaMkWbEHCbQo0OoMve/view?usp=share_link",
+      "hideNotes": true,
       "backgroundMaterials": []
     }
   ],
