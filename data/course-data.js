@@ -108,6 +108,7 @@ window.COURSE_DATA = {
       "reading": "Szeliski, Chapter 3, Sections 3.1 to 3.2.2",
       "slidesUrl": "https://drive.google.com/file/d/1RxhBATAm1GijeF95FNfRcTQy7oXXMJvD/view?usp=share_link",
       "videoUrl": "https://drive.google.com/file/d/1i3JtfuaD3PTRUz1iyOt7wV7t5IROXEfr/view?usp=share_link",
+      "notesUrl": "https://drive.google.com/file/d/1PaXbyOFFXxBgu6IRZ4Ije26MLTYPtBgJ/view?usp=sharing",
       "demoUrl": "https://drive.google.com/file/d/1nEvd5pYa86DNoHmUJMU8Adt0qUvFS0HU/view?usp=sharing",
       "backgroundMaterials": []
     },
