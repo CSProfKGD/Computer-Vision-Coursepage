@@ -139,6 +139,7 @@ window.COURSE_DATA = {
       "lectureNumber": 7,
       "displayTitle": "What Makes Points Interesting?",
       "originalLectureTitle": "Image Features",
+      "notesUrl": "https://drive.google.com/file/d/15PlvEecLpYJWsDQ4rOMIIwNqM2YT_WVS/view?usp=sharing",
       "description": "Represent repeatable points, patches, and patterns that support matching, recognition, and geometric reasoning.",
       "reading": "Szeliski, Chapter 4, Section 4.1",
       "slidesUrl": "https://drive.google.com/file/d/1RUKKdq8_jogjHLuoI8a8Gp1EZ_6Zt7Mk/view?usp=share_link",
